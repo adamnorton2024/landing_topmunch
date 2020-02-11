@@ -1,0 +1,46 @@
+
+*{
+    border: 1px dotted gold !important; 
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+}
+
+label {
+    color: lightgrey;
+}
+
+.fa-utensils {
+    color: black;
+    font-size: 3em;
+  }
+
+.logo {
+    color: black;
+}
+
+.jumbotron {
+    height: 70vh;
+    min-height: 500px;
+    background-image: 
+    linear-gradient(to right, rgba(0,0,0,.75), rgba(0,0,0,0)),
+    url('../images/background_main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+.btn, .sale {
+    color: white;
+    background-color: rgb(255, 150, 60);
+}
+
+.sale {
+    padding: 2.5em;
+    font-weight: bold;
+    font-size: 1.02;
+    width: 165px;
+}
