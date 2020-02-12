@@ -5,7 +5,7 @@ $("#btn-next").on("click", function(event){
     console.log(zipcode);
 
     var modal = $('#ModalForm');
-    modal.find("#modal-zip").text(zipcode);
+    modal.find("#inputZip").val(zipcode);
 });
 
 
