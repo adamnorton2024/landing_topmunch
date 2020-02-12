@@ -44,3 +44,56 @@ label {
     font-size: 1.02;
     width: 165px;
 }
+
+#text-splash {
+    text-shadow: 1px 1px black;
+}
+
+@media (max-width: 1024px) { 
+
+    .jumbotron{
+        height: 70vh;
+    }
+
+ }
+
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 3rem;
+    }
+
+    .jumbotron{
+        height: 70vh;
+    }
+
+    .sale {
+        margin-top: 1em;
+    }
+
+    #text-splash {
+        margin-top: 1em;
+    }
+}
+
+@media (max-width: 575.98px) { 
+
+    .jumbotron{
+        height: 50vh;
+    }
+
+    .sale {
+        display: none;
+    }
+ }
+
+ @media (max-width: 320px) { 
+
+    h1 {
+        font-size: 2.75em;
+    }
+    
+    .jumbotron{
+        height: 100vh;
+    }
+
+ }
