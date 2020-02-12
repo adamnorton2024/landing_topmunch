@@ -33,12 +33,12 @@ label {
     background-position-y: top;
 }
 
-.btn, .sale {
+.btn, .sale,  .sale-mobile{
     color: white;
     background-color: rgb(255, 150, 60);
 }
 
-.sale {
+.sale, .sale-mobile {
     padding: 2.5em;
     font-weight: bold;
     font-size: 1.02;
@@ -94,6 +94,10 @@ label {
     
     .jumbotron{
         height: 100vh;
+    }
+
+    .sale {
+        display: none;
     }
 
  }
