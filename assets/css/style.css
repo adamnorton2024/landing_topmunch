@@ -12,17 +12,15 @@ h1 {
     color: lightgrey;
 }
 
-.fa-utensils {
-    color: black;
-    font-size: 3em;
-  }
-
 .logo {
-    color: black;
+    font-size: 10rem;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 2px 2px black;
 }
 
 .jumbotron {
-    height: 80vh;
+    height: 100vh;
     min-height: 500px;
     background-image: 
     linear-gradient(to right, rgba(0,0,0,.75), rgba(0,0,0,0)),
@@ -33,12 +31,12 @@ h1 {
     background-position-y: top;
 }
 
-.btn, .sale,  .sale-mobile{
+.btn, .sale{
     color: white;
     background-color: rgb(255, 150, 60);
 }
 
-.sale, .sale-mobile {
+.sale {
     padding: 2.5em;
     font-weight: bold;
     font-size: 1.02;
@@ -53,11 +51,15 @@ h1 {
     text-shadow: 1px 1px black;
 }
 
+#ModalCenterTitle {
+    font-weight: bold;
+}
+
 @media (max-width: 1024px) { 
 
-    .jumbotron{
+    /* .jumbotron{
         height: 70vh;
-    }
+    } */
 
  }
 
@@ -66,9 +68,9 @@ h1 {
         font-size: 3rem;
     }
 
-    .jumbotron{
+    /* .jumbotron{
         height: 70vh;
-    }
+    } */
 
     .sale {
         margin-top: 1em;
@@ -81,17 +83,14 @@ h1 {
 
 @media (max-width: 575.98px) { 
 
-    .jumbotron{
-        height: 50vh;
+    .logo {
+        font-size: 6em;
     }
 
     .sale {
         display: none;
     }
 
-    .sale-mobile {
-        display: block;
-    }
  }
 
  @media (max-width: 375px) { 
@@ -100,16 +99,28 @@ h1 {
         font-size: 2.75em;
     }
     
-    .jumbotron{
-        height: 100vh;
+    .logo {
+        font-size: 5em;
     }
 
     .sale {
         display: none;
     }
 
-    .sale-mobile {
-        display: block;
+ }
+
+ @media (max-width: 320px) { 
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    .logo {
+        font-size: 4em;
+    }
+
+    .sale {
+        display: none;
     }
 
  }

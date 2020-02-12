@@ -5,26 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Munchies</title>
-    <script src="https://kit.fontawesome.com/93d294c8eb.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
-    <!-- Brand Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
-        <div class="container">
-                <ul class="navbar-nav mx-auto">
-                    <h1 class="logo">Munchies</h1>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
     <!-- Image Header with Vertically Centered Content -->
-    <header class="jumbotron rounded-0">
+    <header class="jumbotron rounded-0 mb-0">
+        <h1 class="logo">Munchies</h1>
         <div class="container h-100">
             <div class="row h-100 align-items-center mx-0">
                 <div class="row mx-0">
@@ -52,29 +43,9 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </header>
-
-    <!-- Page Content -->
-    <div class="row">
-        <div class="col">
-            <div class="col d-flex justify-content-center">
-                <div class="sale-mobile text-center rounded-circle">
-                    <p>GET</p>
-                    <p>$20 OFF</p>
-                    <p>YOUR FIRST</p>
-                    <p>DELIVERY</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <section class="py-5">
-        <div class="container">
-            
-            <h2 class="font-weight-light">Page Content</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum voluptatibus nesciunt quis voluptas ab, nam veritatis maxime eos praesentium ea. Cum necessitatibus cupiditate possimus nam iusto sapiente. Mollitia, corporis nihil.Neque nesciunt mollitia maiores voluptatum sequi dignissimos eligendi, quisquam labore numquam odit voluptatem temporibus corporis nam eaque natus optio eos. Quae praesentium earum et accusamus qui necessitatibus reprehenderit aliquid expedita?</p>
-        </div>
-    </section>
 
     <!-- Modal -->
     <div class="modal fade" id="ModalForm" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle"
@@ -177,7 +148,12 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Send Me Food!</button>
+                    <div class="row">
+                        <div class="col">
+                            <p>*this is a demo only. You will not be receiving food!</p>
+                        </div>
+                        <div class="col"><button type="button" class="btn btn-primary">Send Me Food!</button></div>
+                    </div>
                 </div>
             </div>
         </div>
